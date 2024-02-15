@@ -1,0 +1,162 @@
+
+
+p{
+    color: #ECE3CE;
+    font-weight: bold;
+}
+
+h1{
+    color: #ECE3CE;
+    text-align: center;
+}
+
+h5{
+    color: #ECE3CE;
+}
+
+body{
+    height: auto;
+    background-color: #232D3F;
+    margin: 0px;
+}
+
+.area1{
+    height: 10vh;
+    background-color: #ECE3CE;
+    position: relative;
+    .area1Box{
+        height: 70%;
+        width: 8%;
+        background-color: #ECE3CE;
+        position: absolute;
+        bottom: 0;
+        left: 10%;
+    }
+
+        }
+.area2{
+    height: 70vh;
+    background-color: #4F6F52;
+    padding: 5%;
+    display: flex;
+    .area2text{
+        width: 50%;
+        padding: 0 2%;
+    }
+    .area2Img{
+        height: 100%;
+        width: 50%;
+        background-image: url(../Image/1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+.area3{
+    width: 100%;
+    height: 60vh;
+    background-color: #4F6F52;
+    padding-bottom: 5%;
+
+    h1{
+        padding: 20px;
+        margin: 0px;
+    }
+
+    .area3ImgArea{
+        width: 100%;
+        height: 83%;
+        display: flex;
+        justify-content: space-around;
+        .area3Img{
+            width: 30%;
+            height: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            background-image: url(../Image/3.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            button{
+                position: absolute;
+                bottom: 2%;
+                width: 50%;
+                height: 15%;
+                background-color: rgb(137, 4, 4);
+                color: #ECE3CE;
+                font-weight: bold;
+            }
+        }
+    }
+    
+
+}
+
+.News{
+    background-color:  #739072;
+    height: 100vh;
+    width: 100%;
+
+    h1{
+        padding: 20px;
+        margin: 0px;
+    }
+    .cardArea{
+        display: flex;
+        justify-content: space-around;
+        .card{
+            border-radius: 10px;
+            background-color: #3A4D39;
+            padding: 1%;
+            
+            p{
+                font-weight: bold;
+            }
+
+            img{
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+    /* //more */
+    button{
+        width: 20%;
+        height: 50px;
+        margin: 0 40%;
+        margin-top: 2%;
+        background-color: #ECE3CE;
+        color: #3A4D39;
+        font-weight: bolder;
+    }
+}
+
+.area5{
+    height: 60vh;
+    background-color:  #739072;
+    padding: 5%;
+    display: flex;
+    .area5Img{
+        width: 50%;
+        height: 100%;
+        background-image: url(../Image/8.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+
+    }
+    .area5Text{
+        width: 50%;
+        height: 100%;
+        padding: 2%;
+    }
+}
+
+.area6{
+    height: 10vh;
+    background-color: #4F6F52;
+
+}
+    
+
